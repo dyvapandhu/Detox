@@ -118,13 +118,23 @@ const sidebars = {
     },
   ],
   contributeSidebar: [
+    'contributing',
+    'contributing/code-of-conduct',
+    'contributing/questions-and-answers',
+    'contributing/reporting-bugs',
+    'contributing/feature-requests',
     {
       type: 'category',
-      label: 'Contribute',
+      label: 'Code Changes',
       items: [
-        'contributing',
+        'contributing/code/overview',
+        'contributing/code/setting-up-the-dev-environment',
+        'contributing/code/submitting-pull-requests',
+        'contributing/code/reviewing-pull-requests',
       ]
     },
+    'contributing/documentation',
+    'contributing/hall-of-fame'
   ],
 };
 
