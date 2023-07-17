@@ -119,7 +119,6 @@ const sidebars = {
   ],
   contributeSidebar: [
     'contributing',
-    'contributing/code-of-conduct',
     'contributing/questions-and-answers',
     'contributing/reporting-bugs',
     'contributing/feature-requests',
@@ -134,6 +133,7 @@ const sidebars = {
       ]
     },
     'contributing/documentation',
+    'contributing/code-of-conduct',
     'contributing/hall-of-fame'
   ],
 };
